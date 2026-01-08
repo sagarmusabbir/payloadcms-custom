@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "src/app/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "build": {
+    "env": {
+      "PAYLOAD_SECRET": "@payload_secret",
+      "DATABASE_URL": "@database_url",
+      "NEXT_PUBLIC_SERVER_URL": "@next_public_server_url"
+    }
+  }
+}
